@@ -3,9 +3,9 @@
 # Site wide configuration
 ####################################
 #
-title: Leonids
-email:
-description: A simple and awesome blog theme powered by jekyll.
+title: Corey Brummel-Smith
+email: cdbs3@gatech.edu
+description: My personal website.
 url: # the base hostname & protocol for your site
 keywords: ["blog", "jekyll"]
 
@@ -33,11 +33,20 @@ kramdown:
 ####################################
 #
 owner:
-  name: Leonids
-  avatar: leonids-logo.png
-  job: "A jekyll theme"
-  bio: "A simple and awesome blog theme powered by jekyll."
-  email:
+  name: Corey Brummel-Smith
+  first_name: Corey
+  last_name: Brummel-Smith
+  avatar: photo_river.jpg
+  job: "Research Assistant"
+  group:  "Center for Relativistic Astrophysics"
+  institute: "Georgia Tech"
+  street: "770 State St. NW Atlanta, GA, 30313, USA"
+
+  institute_url:  https://www.gatech.edu/
+  group_url:      http://cosmo.gatech.edu/
+  street_map_url: https://www.google.com/maps/place/770+State+St+NW,+Atlanta,+GA+30318/@33.7754821,-84.4020554,17z/data=!3m1!4b1!4m5!3m4!1s0x88f504896684bf17:0xa13a88f3800dad4b!8m2!3d33.7754821!4d-84.3998667
+
+  email: cdbs3@gatech.edu
   disqus-shortname:
   twitter: #username
   facebook: #username

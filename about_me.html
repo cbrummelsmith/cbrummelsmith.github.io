@@ -1,0 +1,33 @@
+---
+layout: page
+permalink: /about_me
+image_milkyway:
+  feature: https://images.unsplash.com/photo-1444703686981-a3abbc4d4fe3?crop=entropy&dpr=2&fit=crop&fm=jpg&h=550&ixjsv=2.1.0&ixlib=rb-0.3.5&q=50&w=1250
+
+  feature: https://images.unsplash.com/photo-1450849608880-6f787542c88a?ixlib=rb-0.3.5&s=11081388185897fbb538648fceb61087&auto=format&fit=crop&w=1932&h=900&q=80
+
+  credit: Greg Rakozy
+  creditlink: https://unsplash.com/photos/oMpAz-DN-9I
+
+image_fsu:
+  feature: fsu.jpg
+  credit: Bill Lax
+  creditlink:  https://www.fsu.edu/administration/
+---
+<script>
+function activate() {
+   var element = document.getElementById("top_nav_about_me");
+   element.children[0].classList.add("active");
+}
+</script>
+<script>activate();</script>
+
+<div class="row">
+    <div class="col l9">
+        <div class="row">
+            <div class="about_me_section">
+                {% include sections/about_me_content.html %}
+            </div>
+        </div>
+    </div>
+</div>

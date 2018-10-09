@@ -102,8 +102,7 @@
       font-size: 120%;
       color: $secondary;
       &:hover,
-      &:focus {
-        color: lighten($secondary, 14%);
+      &:focus { color: lighten($secondary, 14%);
       }
     }
   }
@@ -115,8 +114,8 @@
   list-style: none;
   .nav-item {
     padding-top:    1em;
-    padding-bottom: 1em;    
-    padding-left:   2em;
+    padding-bottom: 1.5em;    
+    padding-left:   0em;
     display: inline-block;
     *display: inline;
     zoom: 1;
@@ -127,7 +126,11 @@
       content: '';
     }
     & a {
-      padding-right: 3em;
+      padding-right: 2em;
+      padding-left: 2em;
+      padding-top:  1em;
+      padding-bottom:  1.5em;
+      //padding-bottom: 2em;       
       margin-top: 0em;
       font-size: 175%;
       font-weight: bold;     
@@ -135,10 +138,9 @@
       text-transform: lowercase;
       color: $info;
       color: #87CEFA; //light blue
-      color: lighten($secondary, 3%);
+      color: lighten($secondary, 3%); 
       &:hover,
-      &:focus {
-        color: lighten($secondary, 20%);
+      &:focus { color: lighten($secondary, 20%);
       }
     }
   }
@@ -178,3 +180,12 @@
     padding: 0 0px 0px;
   }
 }
+
+.about_me_section {
+  color: black;
+  color: lighten(black, 25%);
+  font-family:  "HelveticaNeue", Helvetica, Arial, sans-serif;
+  font-size: 1.1em;
+}
+
+.active { background-color: #eee; }

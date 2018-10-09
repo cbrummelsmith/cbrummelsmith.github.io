@@ -27,6 +27,11 @@ kramdown:
   toc_levels: 1..6
   enable_coderay: false
 
+
+onAboutMe: 0
+onResearch: 0
+onCV: 0
+
 #
 ###################################
 # Site Owner configuration

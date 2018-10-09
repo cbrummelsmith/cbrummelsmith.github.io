@@ -1,0 +1,80 @@
+<p>
+Hi! My name is Corey Brummel-Smith. I'm currently a graduate student and research assistaint working for Dr. John Wise in the Computational Cosmology Group in the Center for Relativistic Astrophysics at The Georgia Institute of Technology. I use numerical simulations to try to answer questions about the universe such as, how do the first and second generations of stars form, and how are metals spread through the interstellar medium when a star explodes? I am passionate about simulating the universe because often computers are the best tools we have to answer these questions. Naturally, I love programming and visulizing simulations. I'm not just interested in astrophysics, I like physics as a whole. I love thinking about how things work, why things are the way they are, and the fascinating 13.7 billion years leading up to this moment of me typing on my a keyboard and you reading this. The universe is icredible and its wonders reach beyond our imagination. This is why I do what I do.
+</p>
+
+<div class="post-image-feature">
+  <img class="feature-image" src=
+  {% if page.image_milkyway.feature contains 'https' or page.image_milkyway.feature contains 'http' %}
+  "{{ page.image_milkyway.feature }}"
+  {% else %}
+  "{{ site.url }}/img/{{ page.image_milkyway.feature }}"
+  {% endif %}
+  alt="{{ page.title | escape }} feature image">
+
+  {% if page.image_milkyway.credit %}
+  <span class="image-credit">Photo Credit: <a href="{{ page.image_milkyway.creditlink }}">{{ page.image_milkyway.credit }}</a></span>
+  {% endif %}
+</div><!-- /.image-wrap -->
+
+<p>
+Before coming to Georgia Tech, I did my undergrad studying physics and astrophysics at Florida State University (<b><span style="color: #782F40"> Go </span> <span style="color: #CEB888"> Noles! </span></b>... I'm obligated to say that right?). While at FSU, I worked with Dr. David Collins studying how magnetic fields influence star formation by analyzing simulations of turbulent molecular clouds.
+</p>
+
+<div class="post-image-feature">
+  <img class="feature-image" src=
+  {% if page.image_fsu.feature contains 'https' or page.image_fsu.feature contains 'http' %}
+  "{{ page.image_fsu.feature }}"
+  {% else %}
+  "{{ site.url }}/img/{{ page.image_fsu.feature }}"
+  {% endif %}
+  alt="{{ page.title | escape }} feature image">
+
+  {% if page.image_fsu.credit %}
+  <span class="image-credit">Photo Credit: <a href="{{ page.image_fsu.creditlink }}">{{ page.image_fsu.credit }}</a></span>
+  {% endif %}
+</div><!-- /.image-wrap -->
+
+<p>
+When I'm not running simulations, analyzing them, or debugging; I like to play Super Smash Brothers Melee, practice kendama, juggle, and solve twisty puzzles (e.g. Rubiks cubes). I main Falco in SSBM and like to practice tech skill and movement and press buttons really fast. I'd argue SSBM is the best video game ever created... 
+<span style="font-size: .7em">Also the Marth:Fox matchup is 60:40.</span style="font-size: 1.3em"> <span>&#x1F64A</span>
+</p>
+<p>
+I have a collection of around 25 twisty puzzles. I mostly enjoy 3x3 shape mods such as the mastermorphix and ghost cube. I don't speed solve much but my best time for the 3x3 Rubiks Cube is 32 sec.
+</p>
+<p>
+I also enjoy hiking and snowboarding although I don't do these activities very often. Recently I've been getting into playing pickleball as well.
+</p>
+
+<p>I live together with my wonderful girlfriend Mallory Izbicki and our 17 year old kitten, Puffy. Cute pics below :]</p>
+
+<!--
+<style>
+.democlass1 {
+    font-family: "HelveticaNeue", Helvetica, Arial, sans-serif;    
+}
+</style>
+<style>
+.democlass2 {
+    font-family: Tahoma;
+}
+</style>
+
+
+<button onclick="myFunction1()">Try1</button>
+<button onclick="myFunction2()">Try2</button>
+
+<script>
+function myFunction1() {
+    document.getElementsByClassName("about_me_section")[0].classList.remove("democlass2"); 
+    document.getElementsByClassName("about_me_section")[0].classList.add("democlass1"); 
+
+}
+</script>
+<script>
+function myFunction2() {
+    document.getElementsByClassName("about_me_section")[0].classList.remove("democlass1"); 
+    document.getElementsByClassName("about_me_section")[0].classList.add("democlass2"); 
+
+}
+</script>
+-->

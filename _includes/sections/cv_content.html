@@ -43,9 +43,27 @@
 <span class="content1">Center for Computational Astrophysics. New York, NY, August 2018</span>
 <span class="content2 mbl">Kavli Summer Program in Astrophysics</span>
 
-<span class="h2"><i>"Magnetic Field Alignment in Simulated Molecular Clouds"</i></span>
+<button class="collapsible">Presentation Video</button>
+<div class="content">
+    <!--
+    <video width="100%" controls>
+    <source src="https://www.dropbox.com/s/ayf09cjyje2cw5k/KSPA_presentation_CoreyBrummel-Smith_compressed.mp4?raw=1">       
+    Your browser does not support HTML5 video.
+    </video>
+    -->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/XkZCfnKbanU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</div>
+
+<span class="h2 mtl"><i>"Magnetic Field Alignment in Simulated Molecular Clouds"</i></span>
 <span class="content1">Tallahassee, FL, September 2016 </span>
-<span class="content2 mbl">President’s Showcase of Undergraduate Research Excellence.</span>                                               
+<span class="content2 mbl">President’s Showcase of Undergraduate Research Excellence.</span> 
+
+<button class="collapsible">Presentation Video</button>
+<div class="content">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/HpT1SXZy3N4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  <!--<a href="http://mediasite.capd.fsu.edu/Mediasite/Play/7bba877e4e5f4064b323496ad8630a311d" target="_blank"> Link to video </a>-->
+</div>
+
 <h1 class="h1">Grants and Scholorships</h1>
 
 <span class="h2">Presidential Fellowship</span>
@@ -82,3 +100,21 @@
 <span class="content2">- Founding member of the first astronomy club at FSU</span> 
 <span class="content2">- Teaching undergraduates how use telescopes</span> 
 <span class="content2 mbl" >- Giving advice on how to get involved with undergraduate research</span> 
+
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active_movie");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    } 
+  });
+}
+</script>

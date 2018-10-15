@@ -21,8 +21,8 @@
   color: $text-color;
   padding: 0 30px;
   .avatar {
-    border-radius: 100%;
-    width: 175px;
+    border-radius: 50%;//100%;
+    width:  165px;//175px;
     height: 200px;
     float: top;
     margin-bottom: 2em;
@@ -146,7 +146,7 @@
   }
 }
 
-.cv_section {
+.cv_section, .research_section {
   color: $text-color;
   .h1 {
     display: inline;
@@ -181,7 +181,8 @@
   }
 }
 
-.about_me_section {
+.about_me_section, .research_section {
+  margin-left: 3.5em;
   color: black;
   color: lighten(black, 25%);
   font-family:  "HelveticaNeue", Helvetica, Arial, sans-serif;
@@ -189,3 +190,41 @@
 }
 
 .active { background-color: #eee; }
+
+.collapsible {
+  background-color: #eee;
+  color: $text-color;
+  cursor: pointer;
+  padding: .3em;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 1em;
+}
+
+.active_movie, .collapsible:hover {
+  background-color: lighten($info, 30%);
+
+}
+
+.collapsible:after {
+  content: '\002B';
+  color: black;
+  font-weight: bold;
+  float: right;
+  margin-left: .1em;
+}
+
+.active_movie:after {
+  content: "\2212";
+}
+
+.content {
+  color: black;
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #eee;
+}

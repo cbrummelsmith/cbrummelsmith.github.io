@@ -1,8 +1,28 @@
 ---
 layout: page
 permalink: /research
----
 
+images:
+  jets:
+    feature: img/jets.png
+  mock_jets:
+    feature: img/mock_jets.png    
+    feature: img/irina_diagram_sim.png
+  centaurus:
+    feature: img/centaurus.png
+    credit: "Left: Brummel-Smith, Right: Sanders et al. 2016"
+  perseus:
+    feature: img/perseus.png 
+    credit: "Left: Brummel-Smith, Right: NASA/CXC/IoA/A.Fabian et al."
+
+
+videos:
+  zoomRotate:
+    feature: https://www.dropbox.com/s/jxzf3m87i4ncwfl/zoom_rot_webOptimized.mp4?raw=1
+    credit: Brummel-Smith & Wise
+  vol_render:
+    feature: https://www.dropbox.com/s/ht7zvdl4kf3ibxz/B02_vol_render_webOptimized.mp4?raw=1
+---
 <script>
 function activate() {
    var element = document.getElementById("top_nav_research");
@@ -10,3 +30,13 @@ function activate() {
 }
 </script>
 <script>activate();</script>
+
+<div class="row">
+    <div class="col l9">
+        <div class="row">
+            <div class="research_section">
+                {% include sections/research_content.html %}
+            </div>
+        </div>
+    </div>
+</div>

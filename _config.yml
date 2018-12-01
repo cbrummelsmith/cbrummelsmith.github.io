@@ -39,8 +39,8 @@ onCV: 0
 #
 owner:
   name: Corey Brummel-Smith
-  first_name: Corey
-  last_name: Brummel-Smith
+  first_name: Corey  
+  last_name: 'Brummel-Smith'
   avatar: headshot.png #photo_river.jpg
   job: "Research Assistant"
   group:  "Center for Relativistic Astrophysics"
@@ -57,7 +57,7 @@ owner:
   facebook: #username
   google:
     plus: #username
-    analytics:
+    analytics: UA-130187161-1
     verify:
     ad-client:
     ad-slot:
